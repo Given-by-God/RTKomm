@@ -1,0 +1,13 @@
+<div class="main">
+  <div class="eachBlock" *ngFor="let post of posts">
+    <span class="photo"><img src='{{post.avatar_url}}' width="100"/></span>
+    <ul class="blockInfo">
+      <li>
+        {{post.login}}
+      </li>
+      <li>
+        <a href="{{post.html_url}}">{{post.html_url}}</a>
+      </li>
+    </ul>
+  </div>
+</div>

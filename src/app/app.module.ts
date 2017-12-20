@@ -2,10 +2,12 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
 
+
 import {AppComponent} from './app.component';
-import {ApiComponent} from './api.component';
+import {ApiComponent} from './components/api/api.component';
 import {HttpClientModule} from '@angular/common/http';
 import {Http, HttpModule} from '@angular/http';
+import {DataService} from './service/data.service';
 
 
 @NgModule({
@@ -16,11 +18,9 @@ import {Http, HttpModule} from '@angular/http';
     imports: [
         HttpClientModule,
         HttpModule,
-
         BrowserModule
     ],
-    providers: [
-    ],
+    providers: [DataService],
     bootstrap: [AppComponent]
 })
 export class AppModule {

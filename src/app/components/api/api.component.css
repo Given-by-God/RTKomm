@@ -1,0 +1,35 @@
+img{
+    border-radius: 40px;
+}
+
+.blockInfo{
+    display: inline-block;
+    bottom: 62px;
+    position: relative;
+    left: 6px;;
+}
+ul{
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+
+li:first-child{
+    font-size: 23px;
+    font-weight: 700;
+}
+.main{
+    float:left;
+}
+.eachBlock{
+    margin-bottom: 10px;
+}
+
+@media  (max-width: 373px) {
+    .blockInfo {
+        display: block;
+        position: relative;
+        bottom: 0;
+    }
+}
