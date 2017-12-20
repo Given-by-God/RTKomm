@@ -1,3 +1,13 @@
+# deploy
+
+ 1) git clone https://github.com/Given-by-God/RTKomm.git
+ 2) npm install
+ 3) ng serve
+
+
+
+
+
 # First
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.1.
