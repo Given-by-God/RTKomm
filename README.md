@@ -6,7 +6,7 @@
 
 
 
-# ng--version:
+# ng --version:
 `
   - Angular CLI: 1.6.1
   - Node: 8.9.3
